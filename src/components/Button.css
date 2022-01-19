@@ -1,0 +1,23 @@
+.button {
+    background-color: rgb(255, 0, 85);
+    height: 40px;
+    padding: 0 10px;
+    border-radius: 5px;
+    width: 100%;
+    font-size:16px ;
+    color: #eee;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    transition: all .5s ease;
+}
+
+.add-task-button-container {
+    margin-left: 10px;
+    flex: 1;
+}
+
+.button:hover {
+    background-color:palevioletred;
+    color: rgb(255, 0, 85);
+}
